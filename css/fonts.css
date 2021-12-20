@@ -1,0 +1,45 @@
+@font-face {
+font-family: 'Open Sans';
+src: url('../fonts/OpenSans-Light.eot');
+src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+url('../fonts/OpenSans-Light.woff') format('woff'),
+url('../fonts/OpenSans-Light.ttf') format('truetype');
+font-weight: 300;
+font-style: normal;
+}
+@font-face {
+font-family: 'Open Sans';
+src: url('../fonts/OpenSans-Regular.eot');
+src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/OpenSans-Regular.woff') format('woff'),
+url('../fonts/OpenSans-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Open Sans';
+src: url('../fonts/OpenSans-Bold.eot');
+src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/OpenSans-Bold.woff') format('woff'),
+url('../fonts/OpenSans-Bold.ttf') format('truetype');
+font-weight: 700;
+font-style: normal;
+}
+@font-face {
+    font-family: 'Jost';
+    src: local('Jost SemiBold'), local('Jost-SemiBold'),
+        url('../fonts/Jost-SemiBold.woff2') format('woff2'),
+        url('../fonts/Jost-SemiBold.woff') format('woff'),
+        url('../fonts/Jost-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Archivo';
+    src: local('Archivo Bold'), local('Archivo-Bold'),
+        url('../fonts/Archivo-Bold.woff2') format('woff2'),
+        url('../fonts/Archivo-Bold.woff') format('woff'),
+        url('../fonts/Archivo-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
