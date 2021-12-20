@@ -30,7 +30,7 @@ body {
 	overflow-x: hidden;
 	color: #070E17;
 	margin: 0;
-	background-color: #fff; 
+	background-color: #fff;  
 }
 button {
 	cursor: pointer;
@@ -728,7 +728,7 @@ form {
 	font-size: 14px;
 	line-height: 17px;
 	padding-top: 10px;
-color: #999999;
+	color: #999999;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
@@ -746,8 +746,8 @@ color: #999999;
 }
 .title-page {
 	font-size: 48px;
-line-height: 53px;
-padding-bottom: 30px;
+	line-height: 53px;
+	padding-bottom: 30px;
 }
 .slider-main {
 	margin-top: 50px;
@@ -811,10 +811,10 @@ padding-bottom: 30px;
 	top: 0;
 	left: 0;
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-background-repeat: no-repeat;
-background-position: center;
-transition: all 0.3s;
-opacity: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: all 0.3s;
+	opacity: 0;
 }
 .item-education__image::before {
 	position: absolute;
@@ -824,12 +824,12 @@ opacity: 0;
 	height: 100%;
 	top: 0;
 	left: 0;
-background-image: url(../img/play.svg);
-background-repeat: no-repeat;
-background-position: center;
-z-index: 2;
-transition: all 0.3s;
-opacity: 0;
+	background-image: url(../img/play.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 2;
+	transition: all 0.3s;
+	opacity: 0;
 }
 .item-education:hover .item-education__image::after,
 .item-education:hover .item-education__image::before {
@@ -838,36 +838,10 @@ opacity: 0;
 .news .title-section {
 	padding-top: 50px;
 }
-.about {
-	padding-bottom: 180px;
-}
-.row_sertificat {
-	margin-top: 90px;
-}
-.contacts .title-section {
-	padding-bottom: 0;
-	margin-bottom: 10px;
-}
-.contacts .title-section::after {
-	display: none;
-}
 .title-block {
 	font-size: 32px;
-line-height: 42px;
-padding-bottom: 10px;
-margin-bottom: 30px;
-border-bottom: 2px #e69238 solid;
-}
-.contacts a.title-min {
-	display: inline-block;
-	color: #070E17;
-}
-.contacts .title-min {
-	margin-bottom: 20px;
-}
-.contacts + .section-main {
-	padding-top: 150px;
-}
-.row_contacts {
-	margin-top: 60px;
+	line-height: 42px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	border-bottom: 2px #e69238 solid;
 }
