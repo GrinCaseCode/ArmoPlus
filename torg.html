@@ -19,8 +19,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.1" />
-	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+	<link rel="stylesheet" href="css/main.css?ver=1.4" />
+	<link rel="stylesheet" href="css/media.css?ver=1.4" />
 </head>
 <body>
 
@@ -29,21 +29,21 @@
 		<header class="header">
 			<div class="container">
 				<div class="header__wrap">
-					<a href="#" class="logo">
+					<a href="#" class="logo"> 
 						<img src="img/logo.png" alt="alt">
 					</a>
 					<ul class="menu">
-						<li><a href="#">Для салонов оптики</a></li>
-						<li><a href="#">Для медицины</a></li>
-						<li><a href="#">Новости</a></li>
+						<li><a href="index.html#sect-step1">Для салонов оптики</a></li>
+						<li><a href="index.html#sect-step2">Для медицины</a></li>
+						<li><a href="news.html">Новости</a></li>
 						<li class="menu__haschild">
-							<a href="#">О нас</a>
+							<a href="about.html">О нас</a>
 							<ul>
-								<li><a href="#">Наши клиенты</a></li>
-								<li><a href="#">Обучающие видео</a></li>
+								<li><a href="clients.html">Наши клиенты</a></li>
+								<li><a href="education.html">Обучающие видео</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Контакты</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
 					</ul>
 					<div class="language-unit">
 						<div class="language-unit__value">Ru</div>
@@ -60,17 +60,18 @@
 			</div>
 			<div class="menu-mobile">
 				<ul class="menu">
-					<li><a href="#">Для салонов оптики</a></li>
-					<li><a href="#">Для медицины</a></li>
-					<li><a href="#">Новости</a></li>
+					<li><a href="index.html#sect-step1">Для салонов оптики</a></li>
+					<li><a href="index.html#sect-step2">Для медицины</a></li>
+					<li><a href="news.html">Новости</a></li>
 					<li class="menu__haschild">
-						<a href="#">О нас</a>
+						<a href="about.html">О нас</a>
+						<div class="menu__arrow"></div>
 						<ul>
-							<li><a href="#">Наши клиенты</a></li>
-							<li><a href="#">Обучающие видео</a></li>
+							<li><a href="clients.html">Наши клиенты</a></li>
+							<li><a href="education.html">Обучающие видео</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Контакты</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
 				</ul>
 				<div class="language-unit">
 					<div class="language-unit__value">Ru</div>
@@ -82,7 +83,7 @@
 		<div class="torg">
 			<div class="container">
 				<ul class="breadcrumbs">
-					<li><a href="#">Главная</a><span>/</span></li>
+					<li><a href="index.html">Главная</a><span>/</span></li>
 					<li>Для салонов оптики и торговли</li>
 				</ul>
 				<ul class="slider-main">
@@ -131,17 +132,17 @@
 					</div>
 					<div class="col-lg-8">
 						<ul class="menu-footer">
-							<li><a href="#">Для салонов оптики</a></li>
-							<li><a href="#">Для медицины</a></li>
-							<li><a href="#">Новости</a></li>
+							<li><a href="index.html#sect-step1">Для салонов оптики</a></li>
+							<li><a href="index.html#sect-step2">Для медицины</a></li>
+							<li><a href="news.html">Новости</a></li>
 							<li>
-								<a href="#">О нас</a>
+								<a href="about.html">О нас</a>
 								<ul>
-									<li><a href="#">Наши клиенты</a></li>
-									<li><a href="#">Обучающие видео</a></li>
+									<li><a href="clients.html">Наши клиенты</a></li>
+									<li><a href="education.html">Обучающие видео</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Контакты</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
 						</ul>
 					</div>
 				</div>
@@ -158,6 +159,24 @@
 		
 	</div>
 
+	<div id="callback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-min">Оставить заявку</div>
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Имя" required="required">
+				</div>
+				<div class="item-form">
+					<input type="text" placeholder="Телефон" class="input-phone" required="required">
+				</div>
+				<div class="align-center">
+					<button class="btn-main">Отправить</button>
+				</div>
+				<div class="text-min">Отправляя форму вы соглашаетесь на политику персональных данных</div>
+			</form>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -171,7 +190,7 @@
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.1"></script>
+<script src="js/common.js?ver=1.4"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
