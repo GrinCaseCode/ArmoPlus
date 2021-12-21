@@ -228,6 +228,24 @@
 	.row_contacts {
 		margin-top: 0;
 	}
+	.menu__arrow {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 40px;
+		height: 45px;
+		background-image: url(../img/arrow.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		cursor: pointer;
+		transition: all 0.3s;
+	}
+	.menu__haschild > a::after {
+		display: none;
+	}
+	.menu__arrow.active {
+		transform: rotate(180deg);
+	}
 }
 
 /* Small Devices, Tablets */
@@ -331,6 +349,10 @@
 		line-height: 31px;
 		margin-bottom: 20px;
 	}
+	.billbord + .section-main {
+		margin-top: 0;
+		padding-top: 0;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -429,6 +451,12 @@
 	}
 	.clients_page  {
 		padding-top: 0;
+	}
+	.modal-wrap {
+		padding: 40px 20px;
+	}
+	.consultation-block .item-form {
+		margin-bottom: 20px;
 	}
 }
 

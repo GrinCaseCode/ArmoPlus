@@ -33,12 +33,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		
 	});
 
-	$(".menu-mobile li:not(.menu__haschild) a").click(function() {
+	$(".menu-mobile li a").click(function() {
 		$(".menu-mobile").slideUp(200);
 		$(".sandwich").removeClass("active");
 	});
 
-	$(".menu-mobile .menu__haschild a").click(function() {
+	$(".menu__arrow").click(function() {
+		$(this).toggleClass("active");
 		$(this).siblings("ul").slideToggle(200);
 	});
 
