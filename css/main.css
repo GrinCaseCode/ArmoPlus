@@ -439,6 +439,7 @@ form {
 .item-news__image {
 	height: 214px;
 	margin-bottom: 30px;
+	overflow: hidden;
 	display: block;
 }
 .item-news__image img {
@@ -449,6 +450,9 @@ form {
 	-webkit-transition: all 0.3s; 
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
+}
+.item-news:hover .item-news__image img {
+	transform: scale(1.05);
 }
 .item-news .title-min {
 	margin-bottom: 18px;
